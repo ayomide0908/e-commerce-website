@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+  color:grey;
+  text-decoration: none;
+}
+.navbar{
+  background:white;
+}
+.nv {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+
+.nv li {
+  position: relative;
+}
+
+.nv li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  position: relative;
+}
+
+.nv li a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: orange;
+  transition: width 0.3s ease;
+}
+
+.nv li a:hover::after {
+  width: 70%; 
+}
+.avatar-img {
+  border: 2px solid orange;
+  border-radius: 50%;
+  padding: 2px;
+cursor: pointer;
+}
+
+.container{
+  max-width: 1200px ;
+  margin: auto;
+  padding: 0 20px;
+  /* overflow: hidden; */
+}
+
+.main{
+  position: relative;
+  height: 100vh;
+ 
+  /* overflow: hidden; */
+}
+
+.dark-bg {
+  visibility: hidden;
+  position: fixed;
+  display: none; /* hidden by default */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9); /* slightly transparent black */
+  color: white;
+  
+  /* Center the popup content */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  z-index: 1000;
+}
+
+.card1{
+   display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.card img{
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.can{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  justify-content: end;
+}
+
+.cancel{
+ 
+  color: white;
+  font-size: 20px;
+}
+
+.container2{
+
+  max-width: 1200px ;
+  margin: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+ 
+}
+.header-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.divide {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+  box-shadow: 0 2px 2px -2px rgb(140, 136, 136); /* bottom-only black shadow */
+}
+.divide1{
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+
+}
+
+.mainproduct{
+  width:100%; 
+ 
+   height: 400px;
+   border-radius: 10px;
+}
+#boxz{
+width: 500px;
+line-height: 1.3em;
+
+padding: 80px 30px;
+}
+#boxz p{
+
+  text-align: justify;
+}
+
+.box-1,
+.box-2{
+  display: flex;
+  align-items: center;
+  gap: 20px ;
+}
+
+
+
+.box-3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.p1{
+  height: 80px;
+width: 80px;
+border-radius: 10px;
+
+}
+#low{
+  color: rgb(113, 110, 110);
+  margin-bottom: 20px;
+  font-size: 14px;
+
+}
+h2{
+  letter-spacing: 1px;
+ 
+}
+#sn{
+  font-weight: bold;
+   color: rgb(130, 127, 127) ;
+   letter-spacing: 2px;
+   font-size: 12px;
+}
+.fall{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.p1:hover{
+  border: 4px solid orangered;
+  opacity: 0.5;
+}
+
+.percent{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 0PX 5px ;
+}
+
+.amount{
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+.ms{
+  border-radius: 10px;
+}
+
+.space{
+
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.slide{
+  display: flex;
+}
+.opd{
+  padding: 5px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.sd{
+  display: flex;
+  margin-right: 10px;
+ 
+}
+#o1{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius:10px ;
+  color: orangered;
+  font-size: 19PX;
+}
+#o3{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: orangered;
+  font-size: 19PX;
+}
+ .Cart{
+  background-color: rgb(242, 115, 11);
+border: none;
+  border-radius: 10px;
+  padding:15px 70PX;
+  border-radius: none;
+
+}
+.Cart:hover{
+opacity: 0.7;
+cursor: pointer;
+
+}
+img{
+  height: 40px;
+  width: 40px ;
+}
+h2{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.2em;
+}
+.price{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* .navbar{
+  display: flex;
+} */
+ul{
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+}
+.cart-dropdown {
+  position: absolute;
+  top: 60px; /* adjust depending on navbar height */
+  right: 10px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  z-index: 1000;
+}
+
+.cart-dropdown h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cart-dropdown p {
+  text-align: center;
+  color: gray;
+}
+.avatar-img {
+  border: 4px solid orangered;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  z-index: 100;
+}
+
+.cart-dropdown h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cart-dropdown hr {
+  margin: 10px 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item img {
+  width: 50px;
+  border-radius: 5px;
+}
+/* Make the cart container position relative to position dropdown inside it */
+.cart-container {
+  position: relative;
+  display: inline-block; /* or inline-flex if needed */
+}
+
+/* Cart icon */
+.cart-icon {
+  cursor: pointer;
+}
+
+/* Cart dropdown - positioned absolutely below cart icon */
+.cart-dropdown {
+  position: absolute;
+  top: 100%; /* right below the cart icon */
+  right: 0;
+  width: 300px; /* adjust as needed */
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1000;
+  display: none; /* toggle display with JS */
+}
+
+/* Show dropdown when active */
+.cart-dropdown.active {
+  display: flex; /* flex so image and content are side by side */
+  gap: 10px;
+  align-items: center;
+}
+.box-2 {
+  position: relative; /* needed for dropdown positioning */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icon and avatar */
+}
+
+.cart-icon {
+  cursor: pointer;
+  position: relative; /* optional if you want dropdown relative to icon */
+  font-size: 1.2rem;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 100%;  /* right below .box-2 */
+  right: 0;
+  width: 250px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: none; /* hidden by default */
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.cart-dropdown h3 {
+  margin-bottom: 10px;
+}
+
+.cart-dropdown hr {
+  margin-bottom: 15px;
+}
+
+.cart-dropdown p {
+  color: #555;
+}
+
+
+/* Style the image inside the dropdown */
+.cart-dropdown img {
+  width: 60px; /* smaller image size */
+  height: auto;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+/* Content next to image */
+.cart-content {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.checkout-btn {
+  margin-top: 10px;
+  width: 100%;
+  background: orangered;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+  color: #e00;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color:rgb(242, 115, 11);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.checkout-btn:hover{
+opacity: 0.8;
+} 
+
+.prev, .next {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+  background-color: #f0f0f0;
+}
