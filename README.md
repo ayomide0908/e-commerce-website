@@ -3,9 +3,10 @@
 This is an e-commerce website for showcasing and selling sneakers.  
 
 Built with  
-![HTML5](https://raw.githubusercontent.com/github/explore/main/topics/html/html.png)  
-![CSS3](https://raw.githubusercontent.com/github/explore/main/topics/css/css.png)  
-![JavaScript](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png)
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" alt="HTML5" width="32" />  
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS3" width="32" />  
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" alt="JavaScript" width="32" />
+
 
 
 ## Features
