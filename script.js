@@ -78,6 +78,6 @@ function renderCart() {
                 <p>$${item.price} x ${item.quantity} <strong>$${item.price * item.quantity}</strong></p>
             </div>
         </div>
-        <button class="checkout-btn" style="color=black;">Checkout</button>
+        <button class="checkout-btn" style="color=black;"><a href='checkout.html'>Checkout</a></button>
     `;
 }
