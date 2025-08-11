@@ -2,9 +2,10 @@
 
 This is an e-commerce website for showcasing and selling sneakers.  
 
-Built with ![HTML5](assets/html-logo.png)
-![CSS3](assets/css-logo.png)
-![JavaScript](assets/js-logo.png)
+Built with  
+![HTML5](https://raw.githubusercontent.com/github/explore/main/topics/html/html.png)  
+![CSS3](https://raw.githubusercontent.com/github/explore/main/topics/css/css.png)  
+![JavaScript](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png)
 
 
 ## Features
@@ -14,13 +15,14 @@ Built with ![HTML5](assets/html-logo.png)
 - Clean, modern UI  
 
 ## Screenshots
-
-![Screenshot 1](screenshot1.png)  
 *Shopping cart dropdown*
+![Screenshot 1](screenshot1.png)  
 
+
+
+*Product gallery popup preview*
 
 ![Screenshot 2](screenshot2.png)  
-*Product gallery popup preview*
 
 
 
